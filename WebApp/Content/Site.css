@@ -1,0 +1,56 @@
+﻿body {
+    font-size: 13px;
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+    background-color: #f7f7fa;
+    padding-left: 40px;
+}
+
+nav {
+    display: block;
+}
+
+.menu {
+    padding-left: 10px;
+}
+
+    .menu ul {
+        list-style: none;
+    }
+
+    .menu li {
+        display: inline;
+    }
+
+    .menu a:hover {
+        color: red;
+    }
+
+table {
+    vertical-align: middle;
+    text-align: left;
+    width:70%;
+}
+
+.header {
+    font-weight: bold;
+}
+
+#entries tr.clicked {
+    background: #ccd;
+}
+
+tr:hover {
+    background: #eef;
+}
+
+td {
+    padding-right: 10px;
+}
+
+th {
+    align-content:center;
+}
+
+input {
+    width: 150px;
+}

@@ -1,0 +1,289 @@
+2018-06-22 11:02:23.9413|INFO|Entities.ResLogger|8|Entering Index page|
+2018-06-22 11:02:23.9691|INFO|Entities.ResLogger|8|Got number of companies to HomeController: 11|
+2018-06-22 11:02:23.9785|INFO|Entities.ResLogger|8|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 11:02:56.7317|INFO|Entities.ResLogger|8|Entering CompanyWithVoting page|
+2018-06-22 11:02:56.7371|INFO|Entities.ResLogger|8|Got company to CompanyWithVoting: 8	Com #8	9.50000	|
+2018-06-22 11:05:41.2962|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 11:05:41.3265|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 11:05:41.3354|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 11:05:43.6507|INFO|Entities.ResLogger|11|Entering CompanyWithVoting page|
+2018-06-22 11:05:43.6507|INFO|Entities.ResLogger|11|Got company to CompanyWithVoting: 3	Com #3	8.30000	|
+2018-06-22 11:52:46.2845|INFO|Entities.ResLogger|13|Entering Index page|
+2018-06-22 11:52:46.3168|INFO|Entities.ResLogger|13|Got number of companies to HomeController: 11|
+2018-06-22 11:52:46.3168|INFO|Entities.ResLogger|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 11:53:30.6029|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 11:53:30.6342|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 11:53:30.6431|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 11:53:34.2417|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 11:53:34.2417|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 11:53:34.2417|INFO|Entities.ResLogger|11|Number of companies on page : 2, Got list of companies to HomeController:
+4	Com #4	2.50000	
+2	Com #1	1.80000	
+|
+2018-06-22 11:53:36.2386|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 11:53:36.2386|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 11:53:36.2386|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 11:53:59.2977|INFO|Entities.ResLogger|13|Entering Index page|
+2018-06-22 11:53:59.3269|INFO|Entities.ResLogger|13|Got number of companies to HomeController: 11|
+2018-06-22 11:53:59.3344|INFO|Entities.ResLogger|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 11:54:12.0239|INFO|Entities.ResLogger|15|Entering Index page|
+2018-06-22 11:54:12.0239|INFO|Entities.ResLogger|15|Got number of companies to HomeController: 11|
+2018-06-22 11:54:12.0239|INFO|Entities.ResLogger|15|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 11:54:13.1611|INFO|Entities.ResLogger|14|Entering Index page|
+2018-06-22 11:54:13.1611|INFO|Entities.ResLogger|14|Got number of companies to HomeController: 11|
+2018-06-22 11:54:13.1611|INFO|Entities.ResLogger|14|Number of companies on page : 2, Got list of companies to HomeController:
+4	Com #4	2.50000	
+2	Com #1	1.80000	
+|
+2018-06-22 11:54:14.2895|INFO|Entities.ResLogger|13|Entering Index page|
+2018-06-22 11:54:14.2895|INFO|Entities.ResLogger|13|Got number of companies to HomeController: 11|
+2018-06-22 11:54:14.2895|INFO|Entities.ResLogger|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:03:10.7697|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 12:03:10.7995|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 12:03:10.7995|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:05:26.4927|INFO|Entities.ResLogger|13|Entering Index page|
+2018-06-22 12:05:26.5220|INFO|Entities.ResLogger|13|Got number of companies to HomeController: 11|
+2018-06-22 12:05:26.5220|INFO|Entities.ResLogger|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:05:30.5017|INFO|Entities.ResLogger|13|Entering Index page|
+2018-06-22 12:05:30.5017|INFO|Entities.ResLogger|13|Got number of companies to HomeController: 11|
+2018-06-22 12:05:30.5056|INFO|Entities.ResLogger|13|Number of companies on page : 2, Got list of companies to HomeController:
+4	Com #4	2.50000	
+2	Com #1	1.80000	
+|
+2018-06-22 12:05:34.3153|INFO|Entities.ResLogger|15|Entering Index page|
+2018-06-22 12:05:34.3153|INFO|Entities.ResLogger|15|Got number of companies to HomeController: 11|
+2018-06-22 12:05:34.3153|INFO|Entities.ResLogger|15|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:05:35.5221|INFO|Entities.ResLogger|13|Entering Index page|
+2018-06-22 12:05:35.5221|INFO|Entities.ResLogger|13|Got number of companies to HomeController: 11|
+2018-06-22 12:05:35.5221|INFO|Entities.ResLogger|13|Number of companies on page : 2, Got list of companies to HomeController:
+4	Com #4	2.50000	
+2	Com #1	1.80000	
+|
+2018-06-22 12:05:36.3732|INFO|Entities.ResLogger|15|Entering Index page|
+2018-06-22 12:05:36.3732|INFO|Entities.ResLogger|15|Got number of companies to HomeController: 11|
+2018-06-22 12:05:36.3732|INFO|Entities.ResLogger|15|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:05:41.6108|INFO|Entities.ResLogger|13|Entering Index page|
+2018-06-22 12:05:41.6118|INFO|Entities.ResLogger|13|Got number of companies to HomeController: 11|
+2018-06-22 12:05:41.6118|INFO|Entities.ResLogger|13|Number of companies on page : 2, Got list of companies to HomeController:
+4	Com #4	2.50000	
+2	Com #1	1.80000	
+|
+2018-06-22 12:05:42.8236|INFO|Entities.ResLogger|15|Entering Index page|
+2018-06-22 12:05:42.8236|INFO|Entities.ResLogger|15|Got number of companies to HomeController: 11|
+2018-06-22 12:05:42.8236|INFO|Entities.ResLogger|15|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:06:10.8956|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 12:06:10.9224|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 12:06:10.9312|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:06:32.0191|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 12:06:32.0191|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 12:06:32.0191|INFO|Entities.ResLogger|11|Number of companies on page : 2, Got list of companies to HomeController:
+4	Com #4	2.50000	
+2	Com #1	1.80000	
+|
+2018-06-22 12:06:33.6974|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 12:06:33.6974|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 12:06:33.6974|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:14:51.2157|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 12:14:51.2464|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 12:14:51.2558|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:14:55.1337|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 12:14:55.1337|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 12:14:55.1337|INFO|Entities.ResLogger|11|Number of companies on page : 2, Got list of companies to HomeController:
+4	Com #4	2.50000	
+2	Com #1	1.80000	
+|
+2018-06-22 12:14:57.0416|INFO|Entities.ResLogger|11|Entering Index page|
+2018-06-22 12:14:57.0416|INFO|Entities.ResLogger|11|Got number of companies to HomeController: 11|
+2018-06-22 12:14:57.0416|INFO|Entities.ResLogger|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-22 12:14:59.1287|INFO|Entities.ResLogger|11|Entering CompanyWithVoting page|
+2018-06-22 12:14:59.1287|INFO|Entities.ResLogger|11|Got company to CompanyWithVoting: 7	Com #7	6.30000	|
+2018-06-22 13:06:19.4802|INFO|Entities.ResLogger|11|Entering CompanyWithVoting page|
+2018-06-22 13:06:19.5134|INFO|Entities.ResLogger|11|Got company to CompanyWithVoting: 10	Com #10	7.20000	|
+2018-06-22 13:06:26.1182|INFO|Entities.ResLogger|11|Entering Enter page|

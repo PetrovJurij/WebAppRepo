@@ -1,0 +1,386 @@
+2018-06-21 16:51:54.1295|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 16:51:54.1499|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 17:21:22.5062|INFO|WebApp.Controllers.HomeController|10|Entering Index page|
+2018-06-21 17:21:22.5192|INFO|WebApp.Controllers.HomeController|10|Got number of companies to HomeController: 11|
+2018-06-21 17:21:22.5192|INFO|WebApp.Controllers.HomeController|10|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 17:23:42.2790|INFO|WebApp.Controllers.HomeController|10|Entering Index page|
+2018-06-21 17:23:42.2939|INFO|WebApp.Controllers.HomeController|10|Got number of companies to HomeController: 11|
+2018-06-21 17:23:42.2998|INFO|WebApp.Controllers.HomeController|10|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:09:54.2677|INFO|WebApp.Controllers.HomeController|13|Entering Index page|
+2018-06-21 18:09:54.2896|INFO|WebApp.Controllers.HomeController|13|Got number of companies to HomeController: 11|
+2018-06-21 18:09:54.2896|INFO|WebApp.Controllers.HomeController|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:10:01.3494|INFO|WebApp.Controllers.HomeController|18|Entering CompanyWithVoting page|
+2018-06-21 18:10:01.3494|INFO|WebApp.Controllers.HomeController|18|Got company to CompanyWithVoting: 11	Com #11	9.30000	|
+2018-06-21 18:10:07.0637|INFO|WebApp.Controllers.HomeController|17|Entering Enter page|
+2018-06-21 18:13:49.4119|INFO|WebApp.Controllers.HomeController|12|Entering Index page|
+2018-06-21 18:13:49.4273|INFO|WebApp.Controllers.HomeController|12|Got number of companies to HomeController: 11|
+2018-06-21 18:13:49.4273|INFO|WebApp.Controllers.HomeController|12|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:14:08.1806|INFO|WebApp.Controllers.HomeController|17|Entering CompanyWithVoting page|
+2018-06-21 18:14:08.1806|INFO|WebApp.Controllers.HomeController|17|Got company to CompanyWithVoting: 5	Com #5	4.40000	|
+2018-06-21 18:14:10.3659|INFO|WebApp.Controllers.HomeController|13|Entering Index page|
+2018-06-21 18:14:10.3659|INFO|WebApp.Controllers.HomeController|13|Got number of companies to HomeController: 11|
+2018-06-21 18:14:10.3659|INFO|WebApp.Controllers.HomeController|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:14:22.9707|INFO|WebApp.Controllers.HomeController|13|Entering CompanyWithVoting page|
+2018-06-21 18:14:22.9757|INFO|WebApp.Controllers.HomeController|13|Got company to CompanyWithVoting: 3	Com #3	8.30000	|
+2018-06-21 18:14:24.8746|INFO|WebApp.Controllers.HomeController|17|Entering Index page|
+2018-06-21 18:14:24.8746|INFO|WebApp.Controllers.HomeController|17|Got number of companies to HomeController: 11|
+2018-06-21 18:14:24.8791|INFO|WebApp.Controllers.HomeController|17|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:14:26.2701|INFO|WebApp.Controllers.HomeController|22|Entering Index page|
+2018-06-21 18:14:26.2701|INFO|WebApp.Controllers.HomeController|22|Got number of companies to HomeController: 11|
+2018-06-21 18:14:26.2701|INFO|WebApp.Controllers.HomeController|22|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:14:27.0109|INFO|WebApp.Controllers.HomeController|13|Entering Enter page|
+2018-06-21 18:15:53.8744|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 18:15:53.8903|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 18:15:53.8967|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:15:58.2386|INFO|WebApp.Controllers.HomeController|15|Entering CompanyWithVoting page|
+2018-06-21 18:15:58.2386|INFO|WebApp.Controllers.HomeController|15|Got company to CompanyWithVoting: 7	Com #7	6.30000	|
+2018-06-21 18:16:00.0569|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 18:16:00.0569|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 18:16:00.0569|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:17:14.5146|INFO|WebApp.Controllers.HomeController|12|Entering Index page|
+2018-06-21 18:17:14.5324|INFO|WebApp.Controllers.HomeController|12|Got number of companies to HomeController: 11|
+2018-06-21 18:17:14.5409|INFO|WebApp.Controllers.HomeController|12|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:17:20.7179|INFO|WebApp.Controllers.HomeController|12|Entering CompanyWithVoting page|
+2018-06-21 18:17:20.7219|INFO|WebApp.Controllers.HomeController|12|Got company to CompanyWithVoting: 10	Com #10	7.20000	|
+2018-06-21 18:17:22.5461|INFO|WebApp.Controllers.HomeController|16|Entering Index page|
+2018-06-21 18:17:22.5461|INFO|WebApp.Controllers.HomeController|16|Got number of companies to HomeController: 11|
+2018-06-21 18:17:22.5461|INFO|WebApp.Controllers.HomeController|16|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:17:30.8824|INFO|WebApp.Controllers.HomeController|16|Entering Enter page|
+2018-06-21 18:17:36.5710|INFO|WebApp.Controllers.HomeController|14|Entering Index page|
+2018-06-21 18:17:36.5710|INFO|WebApp.Controllers.HomeController|14|Got number of companies to HomeController: 11|
+2018-06-21 18:17:36.5710|INFO|WebApp.Controllers.HomeController|14|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:20:16.9542|INFO|WebApp.Controllers.HomeController|13|Entering Enter page|
+2018-06-21 18:20:22.2239|INFO|WebApp.Controllers.HomeController|15|Entering Index page|
+2018-06-21 18:20:22.2239|INFO|WebApp.Controllers.HomeController|15|Got number of companies to HomeController: 11|
+2018-06-21 18:20:22.2239|INFO|WebApp.Controllers.HomeController|15|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:20:25.2684|INFO|WebApp.Controllers.HomeController|15|Entering Enter page|
+2018-06-21 18:20:28.3860|INFO|WebApp.Controllers.HomeController|19|Entering Index page|
+2018-06-21 18:20:28.3860|INFO|WebApp.Controllers.HomeController|19|Got number of companies to HomeController: 11|
+2018-06-21 18:20:28.3860|INFO|WebApp.Controllers.HomeController|19|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:20:29.1274|INFO|WebApp.Controllers.HomeController|18|Entering CompanyWithVoting page|
+2018-06-21 18:20:29.1274|INFO|WebApp.Controllers.HomeController|18|Got company to CompanyWithVoting: 3	Com #3	8.30000	|
+2018-06-21 18:36:52.4187|INFO|WebApp.Controllers.HomeController|14|Entering Index page|
+2018-06-21 18:36:52.4321|INFO|WebApp.Controllers.HomeController|14|Got number of companies to HomeController: 11|
+2018-06-21 18:36:52.4321|INFO|WebApp.Controllers.HomeController|14|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 18:36:56.5349|INFO|WebApp.Controllers.HomeController|9|Entering CompanyWithVoting page|
+2018-06-21 18:36:56.5349|INFO|WebApp.Controllers.HomeController|9|Got company to CompanyWithVoting: 10	Com #10	7.20000	|
+2018-06-21 19:02:34.1020|INFO|WebApp.Controllers.HomeController|13|Entering Index page|
+2018-06-21 19:02:34.1164|INFO|WebApp.Controllers.HomeController|13|Got number of companies to HomeController: 11|
+2018-06-21 19:02:34.1164|INFO|WebApp.Controllers.HomeController|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:03:10.1159|INFO|WebApp.Controllers.HomeController|13|Entering Index page|
+2018-06-21 19:03:10.1313|INFO|WebApp.Controllers.HomeController|13|Got number of companies to HomeController: 11|
+2018-06-21 19:03:10.1313|INFO|WebApp.Controllers.HomeController|13|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:07:17.5125|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 19:07:17.5264|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 19:07:17.5264|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:09:28.8359|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 19:09:28.8492|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 19:09:28.8492|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:09:36.8523|INFO|WebApp.Controllers.HomeController|11|Entering CompanyWithVoting page|
+2018-06-21 19:09:36.8523|INFO|WebApp.Controllers.HomeController|11|Got company to CompanyWithVoting: 6	Com #6	10.00000	|
+2018-06-21 19:09:39.6228|INFO|WebApp.Controllers.HomeController|9|Entering Index page|
+2018-06-21 19:09:39.6228|INFO|WebApp.Controllers.HomeController|9|Got number of companies to HomeController: 11|
+2018-06-21 19:09:39.6228|INFO|WebApp.Controllers.HomeController|9|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:09:40.6998|INFO|WebApp.Controllers.HomeController|16|Entering CompanyWithVoting page|
+2018-06-21 19:09:40.6998|INFO|WebApp.Controllers.HomeController|16|Got company to CompanyWithVoting: 11	Com #11	9.30000	|
+2018-06-21 19:09:42.5021|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 19:09:42.5021|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 19:09:42.5041|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:12:41.8435|INFO|WebApp.Controllers.HomeController|8|Entering Index page|
+2018-06-21 19:12:41.8569|INFO|WebApp.Controllers.HomeController|8|Got number of companies to HomeController: 11|
+2018-06-21 19:12:41.8639|INFO|WebApp.Controllers.HomeController|8|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:13:03.5184|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 19:13:03.5184|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 19:13:03.5373|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:13:33.8952|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 19:13:33.9091|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 19:13:33.9091|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|
+2018-06-21 19:14:16.3424|INFO|WebApp.Controllers.HomeController|11|Entering Index page|
+2018-06-21 19:14:16.3568|INFO|WebApp.Controllers.HomeController|11|Got number of companies to HomeController: 11|
+2018-06-21 19:14:16.3617|INFO|WebApp.Controllers.HomeController|11|Number of companies on page : 10, Got list of companies to HomeController:
+6	Com #6	10.00000	
+8	Com #8	9.50000	
+11	Com #11	9.30000	
+3	Com #3	8.30000	
+10	Com #10	7.20000	
+7	Com #7	6.30000	
+1	Com #2	5.73000	
+5	Com #5	4.40000	
+9	Com #9	3.30000	
+4	Com #4	2.50000	
+|

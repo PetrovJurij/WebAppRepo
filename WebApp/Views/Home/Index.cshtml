@@ -1,0 +1,49 @@
+﻿@model WebApp.Models.ComaniesViewModel
+@using WebApp.Helpers
+@using Entities;
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Company list</title>
+</head>
+<body>
+    <div style="overflow-x:auto;" class="container body-content">
+        <div class="row">
+            <div class=" col-xs-6">
+                <h2>Список компаний </h2>
+            </div>
+            <form class="form-inline">
+                <div class="input-group">
+                    <input class="form-control py-2 border-right-0 border" type="search" value="search" id="example-search-input">
+                    <span class="input-group-append">
+                        <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <table class="table-hover">
+            <tr class="header">
+                <td><p>№</p></td>
+                <td><p>Название компании</p></td>
+                <td><p>Рейтинг компании</p></td>
+                <td></td>
+            </tr>
+            @foreach (var b in Model.Companies)
+            {
+                <tr onclick="location.href = '@(Url.Action("CompanyWithVoting","Home",new { companyId=b.Company_Id}))'">
+                    <td><p>@b.Company_Id</p></td>
+                    <td><p>@b.Company_Name</p></td>
+                    <td>@b.Company_rating</td>
+                </tr>
+            }
+        </table>
+        <br />
+        <div class="btn-group">
+            @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { page = x }))
+        </div>
+    </div>
+</body>
