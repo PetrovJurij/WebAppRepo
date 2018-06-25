@@ -16,29 +16,37 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace WebApp.DependencyResolution {
+namespace WebApp.DependencyResolution
+{
+    using DataAccess;
+    using Entities;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
     using VotingServices;
-    using Entities;
-    using DataAccess;
-	
-    public class DefaultRegistry : Registry {
+
+    public class DefaultRegistry : Registry
+    {
         #region Constructors and Destructors
 
-        public DefaultRegistry() {
+        public DefaultRegistry()
+        {
             Scan(
-                scan => {
+                scan =>
+                {
                     scan.TheCallingAssembly();
+                    scan.AssemblyContainingType<ILog>();
+                    scan.AssemblyContainingType<IVotingService>();
+                    scan.AssemblyContainingType<IVotingRepository>();
                     scan.WithDefaultConventions();
                 });
             //For<IExample>().Use<Example>();
-            For<ILog>().Use<ResLogger>();
-            For<ICompaniesService>().Use<CompaniesService>();
-            For<IVotingService>().Use<VotingService>();
-            For<IVotingRepository>().Use<VotingRepository>();
-            For<ICompanyRepository>().Use<CompanyRepository>();
-            For<IUserRepository>().Use<UserRepository>();
+            //For<ILog>().Use<Log>();
+            //For<ICompaniesService>().Use<CompaniesService>();
+            //For<IVotingService>().Use<VotingService>();
+            //For<IVotingRepository>().Use<VotingRepository>();
+            //For<ICompanyRepository>().Use<CompanyRepository>();
+            //For<IUserRepository>().Use<UserRepository>();
+            //For<IUserService>().Use<UserService>();
 
         }
 

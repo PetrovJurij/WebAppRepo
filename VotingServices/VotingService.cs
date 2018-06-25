@@ -11,10 +11,12 @@ namespace VotingServices
     public class VotingService:IVotingService
     {
         private IVotingRepository _votingRepository;
+        private ILog _logger;
 
-        public VotingService(IVotingRepository votingRepository)
+        public VotingService(IVotingRepository votingRepository,ILog logger)
         {
             _votingRepository = votingRepository;
+            _logger = logger;
         }
         public bool Vote()
         {

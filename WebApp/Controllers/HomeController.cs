@@ -13,7 +13,7 @@ namespace WebApp.Controllers
 
     public class HomeController : Controller
     {
-
+        
         public HomeController(ILog logger, ICompaniesService companiesService,IVotingService votingService,IUserService userService)
         {
             _logger = logger;
@@ -41,13 +41,13 @@ namespace WebApp.Controllers
             return View(companiesViewModel);
         }
 
-        public ActionResult Enter(UserModel userModel)
+        public ActionResult Enter(string userName,string password)
         {
             User user = null;
-            if (_userService.LogIn(userModel.UserName, userModel.Password))
+            if (_userService.LogIn(userName, password))
             {
                 //HttpContext.Response.Cookies["id"].Value = userModel.UserName;
-                user = _userService.GetUserByUserName(userModel.UserName);
+                user = _userService.GetUserByUserName(userName);
             }
 
             return View(user);
@@ -63,7 +63,10 @@ namespace WebApp.Controllers
         public ActionResult Vote(VotingFormModel votingForm)
         {
             User user;
-            if (HttpContext.Response.Cookies["id"].Value!=null)
+            String userId=null;
+            //userId = HttpContext.Response.Cookies["id"].Value;
+            
+            if (userId!=null)
             {
                 user = _userService.GetUserByUserName(HttpContext.Response.Cookies["id"].Value);
                 _votingService.Vote();

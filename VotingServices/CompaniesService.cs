@@ -11,10 +11,12 @@ namespace VotingServices
     public class CompaniesService:ICompaniesService
     {
         private ICompanyRepository _companyRepository;
+        private ILog _logger;
 
-        public CompaniesService(ICompanyRepository companyRepository)
+        public CompaniesService(ICompanyRepository companyRepository,ILog logger)
         {
             _companyRepository = companyRepository;
+            _logger = logger;
         }
 
         public List<Company> GetCompaniesList(int page,int num)

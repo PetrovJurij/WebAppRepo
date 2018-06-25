@@ -9,21 +9,21 @@ namespace Entities
     public class Company
     {
 
-        public int Company_Id { set; get; }
-        public string Company_Name { set; get; }
-        public string Company_Desc { set; get; }
-        public decimal Company_rating { set; get; }
+        public int CompanyId { set; get; }
+        public string CompanyName { set; get; }
+        public string CompanyDesc { set; get; }
+        public decimal Companyrating { set; get; }
         public int NumberOfVotes { set; get; }
 
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.Append(Company_Id);
+            sb.Append(CompanyId);
             sb.Append('\t');
-            sb.Append(Company_Name);
+            sb.Append(CompanyName);
             sb.Append('\t');
-            sb.Append(Company_rating);
+            sb.Append(Companyrating);
             sb.Append('\t');
 
             return sb.ToString();
@@ -37,8 +37,8 @@ namespace Entities
             }
             Company newObj = (Company)obj;
 
-            if(newObj.Company_Id!=Company_Id||newObj.Company_Name!=Company_Name
-                ||newObj.Company_rating!=Company_rating||newObj.Company_Desc!=Company_Desc
+            if(newObj.CompanyId!=CompanyId||newObj.CompanyName!=CompanyName
+                ||newObj.Companyrating!=Companyrating||newObj.CompanyDesc!=CompanyDesc
                 ||newObj.NumberOfVotes!=NumberOfVotes)
             {
                 return false;

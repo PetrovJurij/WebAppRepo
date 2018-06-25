@@ -11,21 +11,27 @@ namespace VotingServices
     public class UserService:IUserService
     {
         private IUserRepository _userRepository;
+        private ILog _logger;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository,ILog logger)
         {
             _userRepository = userRepository;
+            _logger = logger;
         }
 
         public bool LogIn(string userName, string password)
         {
             User plausibleUser = _userRepository.GetUserByUserName(userName);
             if (plausibleUser == null)
-                return false;
+            {
+                throw new UserDoesNotExistException();
+            }
             else
             {
                 if (plausibleUser.User_Pass != password)
-                    return false;
+                {
+                    throw new WrongPasswordException();
+                }
             }
 
             return true;

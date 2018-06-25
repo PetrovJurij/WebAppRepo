@@ -50,7 +50,7 @@ end;
 go
 
 Create View [Vote View] As
-select  Vote_Id, Vote_Comentary, Vote_Weight,UserType.UserType, Users_UserName, Users_IP, Users_hash, CompanyName from Vote 
+select  Vote_Id, Vote_Comentary, Vote_Weight, Users_UserName, Users_IP, Users_hash, CompanyName from Vote 
 inner join Users on Vote.Vote_User=Users.Users_Id 
 inner join UserType on Users.Users_Type=UserType.UserType_Id 
 inner join Companies on Vote.Voted_Company=Companies.Company_Id

@@ -11,16 +11,7 @@ namespace DataAccess
 {
     public class SQLDBConnection
     {
-        private static string SELECT_LIST_OF_COMPANIES_BY_BATCHES_FROM_DB = 
-            "SELECT  Company_Id, CompanyName, CompanyDesc, CompanyRating, NumberOfVotes " +
-            "FROM (SELECT ROW_NUMBER() OVER (ORDER BY CompanyRating desc) AS RowNum, * " +
-            "FROM Companies) "+
-            "AS RowConstrainedResult "+
-            "WHERE RowNum >= {0} AND RowNum<= {1} "+
-            "ORDER BY RowNum";
-        private static string SELECT_COMPANY_BY_ID = "SELECT Company_Id, CompanyName, CompanyDesc, CompanyRating, NumberOfVotes " +
-                                                     "FROM Companies WHERE Company_Id = {0}";
-        private static string SELECT_COMPANY_COUNT = "SELECT Count(*) FROM Companies";
+        
         private static string SELECT_VOTES_COUNT_BY_ID_AND_BY_IP = "SELECT * FROM VoteView " +
                                                                    "WHERE Company_Id = {0} and User_IP = {1}";
         private static string SELECT_USER_BY_IP_AND_HASH = "Select Users_Id, Users_UserName, Users_IP, UserType.UserType from Users " +
@@ -56,71 +47,7 @@ namespace DataAccess
 
         }
 
-        public List<Company> GetCompanyList(int page,int numberOfCompanies)
-        {
-            String s=String.Format(SELECT_LIST_OF_COMPANIES_BY_BATCHES_FROM_DB, (page-1)*numberOfCompanies,page*numberOfCompanies);
-            List<Company> companiesRep = new List<Company>();
-            Company nextCompany;
-            SqlDataReader reader;
-            SqlCommand command;
 
-            try
-            {
-                sqlcon.Open();
-                command = new SqlCommand(s, sqlcon);
-                reader = command.ExecuteReader();
-                while(reader.Read())
-                {
-                    nextCompany= WrapCompany(reader);
-                    companiesRep.Add(nextCompany);
-                }
-
-                reader.Close();
-                command.Dispose();
-            }
-            catch(SqlException ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                if (sqlcon.State == System.Data.ConnectionState.Open)
-                {
-                    sqlcon.Close();
-                }
-            }
-
-            return companiesRep;
-        }
-
-        public Company GetCompany(int id)
-        {
-            String s = String.Format(SELECT_COMPANY_BY_ID, id);
-            Company result=new Company();
-            SqlDataReader reader;
-            SqlCommand command;
-
-            try
-            {
-                sqlcon.Open();
-                command = new SqlCommand(s,sqlcon);
-                reader = command.ExecuteReader();
-                reader.Read();
-                result = WrapCompany(reader);
-
-            }
-            catch(SqlException ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                if (sqlcon.State == System.Data.ConnectionState.Open)
-                    sqlcon.Close();
-            }
-
-            return result;
-        }
 
 
 
@@ -178,48 +105,6 @@ namespace DataAccess
             return result;
         }
 
-
-        public int GetCompanyCount()
-        {
-            int result = 0;
-            SqlDataReader reader;
-            SqlCommand command;
-
-            try
-            {
-                sqlcon.Open();
-                command = new SqlCommand(SELECT_COMPANY_COUNT,sqlcon);
-                reader = command.ExecuteReader();
-
-                reader.Read();
-                result = Convert.ToInt32(reader.GetValue(0));
-
-                reader.Close();
-                command.Dispose();
-            }
-            catch(SqlException ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                sqlcon.Close();
-            }
-
-            return result;
-        }
-
-        private Company WrapCompany(SqlDataReader companyReader)
-        {
-            Company result = new Company();
-            result.Company_Id = Convert.ToInt32(companyReader.GetValue(0));
-            result.Company_Name = Convert.ToString(companyReader.GetValue(1));
-            result.Company_Desc = Convert.ToString(companyReader.GetValue(2));
-            result.Company_rating = Convert.ToDecimal(companyReader.GetValue(3));
-            result.NumberOfVotes = Convert.ToInt32(companyReader.GetValue(4));
-
-            return result;
-        }
 
         private User WrapUser(SqlDataReader userReader)
         {

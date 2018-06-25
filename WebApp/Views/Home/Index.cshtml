@@ -34,16 +34,31 @@
             </tr>
             @foreach (var b in Model.Companies)
             {
-                <tr onclick="location.href = '@(Url.Action("CompanyWithVoting","Home",new { companyId=b.Company_Id}))'">
-                    <td><p>@b.Company_Id</p></td>
-                    <td><p>@b.Company_Name</p></td>
-                    <td>@b.Company_rating</td>
+                <tr onclick="location.href = '@(Url.Action("CompanyWithVoting","Home",new { companyId=b.CompanyId}))'">
+                    <td><p>@b.CompanyId</p></td>
+                    <td><p>@b.CompanyName</p></td>
+                    <td>@b.Companyrating</td>
                 </tr>
             }
         </table>
         <br />
         <div class="btn-group">
             @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { page = x }))
+        </div>
+        <div class="container">
+            <div class="col-lg-4">
+                <button class="btn btn-default dropdown-toggle" type="button" id="companiesOnPage" data-toggle="dropdown">
+                    @Model.PageInfo.PageSize companies on page
+                    <span class="caret"></span>
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <ul class="dropdown-menu" role="menu" aria-labelledby="NumberOfCompanies">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">10</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">25</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">50</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>

@@ -35,8 +35,9 @@ namespace WebApp.Helpers
             }
 
             TagBuilder currentPageTag = new TagBuilder("p");
-            currentPageTag.InnerHtml = pageInfo.PageNumber.ToString();
-            currentPageTag.AddCssClass("col-xs-6");
+            String s= pageInfo.PageNumber.ToString() + " из " + pageInfo.TotalPages.ToString();
+            currentPageTag.InnerHtml = s.ToString();
+            //currentPageTag.AddCssClass("col-xs-6");
             result.Append(currentPageTag);
 
             if (pageInfo.PageNumber < pageInfo.TotalPages)

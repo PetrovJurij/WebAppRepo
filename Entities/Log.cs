@@ -7,7 +7,7 @@ using NLog;
 
 namespace Entities
 {
-    public class ResLogger : ILog
+    public class Log : ILog
     {
         Logger logger = LogManager.GetCurrentClassLogger();
 
